@@ -28,9 +28,7 @@ export default function CalendarViewer() {
     <div className="calendar-container">
       <select value={selectedFile} onChange={(e) => setSelectedFile(e.target.value)}>
         {calendarFiles.map(file => (
-          <option key={file} value={file}> 
-            {file.replace('.pdf', '')}
-          </option>
+          <option key={file} value={file}>{file.replace('.pdf', '')}</option>
         ))}
       </select>
 
