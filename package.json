@@ -1,5 +1,5 @@
 {
-  "name": "svvp_revamp",
+  "name": "svvp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "@heroicons/react": "^2.2.0",
     "date-fns": "^4.1.0",
     "firebase": "^11.8.1",
+    "firebase-admin": "^13.4.0",
     "googleapis": "^150.0.1",
     "next": "^15.3.3",
     "pdfjs-dist": "^5.3.31",
