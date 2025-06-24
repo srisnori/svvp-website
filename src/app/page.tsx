@@ -209,7 +209,7 @@ console.log('Proxy URL for flyer:', proxyUrl);
             <h1>Don't Miss Our Upcoming Event!</h1>
             <p>No upcoming events at the moment. Check back soon!</p>
           </div>
-          <img src="/flyers/demo-event.jpg" alt="Default Flyer" className={styles.flyerPreview}/>
+          <img src="/flyers/" alt="Default Flyer" className={styles.flyerPreview}/>
         </div>
       )}
 
