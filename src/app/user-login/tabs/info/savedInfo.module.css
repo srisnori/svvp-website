@@ -1,0 +1,123 @@
+.container {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.info {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1vh;
+}
+
+.field {
+  flex: 1 1 45%;
+  margin-right: 2vh;
+  margin-bottom: 2vh;
+}
+
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #555;
+}
+
+.input {
+  width: 90%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.saveButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.saveButton:hover {
+  background-color: #45a049;
+}
+
+.addButton {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;         
+  margin-left: auto;    
+  margin-right: auto;
+}
+
+
+.addButton:hover {
+  background-color: #1976d2;
+}
+
+.removeButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.removeButton:hover {
+  background-color: #d32f2f;
+}
+
+.familyMember {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.familyRow {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 2vh;       
+    align-items: flex-end; 
+    overflow-x: auto;  
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+}
+
+.familyTitle{
+  align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 5vh; 
+}

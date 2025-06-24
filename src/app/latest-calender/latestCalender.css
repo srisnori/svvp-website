@@ -1,0 +1,36 @@
+.calendar-container {
+  max-width: 70%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+  width: 50%;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+select:hover,
+select:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.pdf-wrapper {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgb(0 0 0 / 0.05);
+  overflow: auto;
+  padding: 1rem;
+  height: auto; 
+  height: 60vh; 
+}

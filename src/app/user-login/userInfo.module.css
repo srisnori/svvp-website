@@ -1,0 +1,27 @@
+.dashboardContainer {
+  padding: 2rem;
+}
+
+.tabContainer {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: none;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.activeTab {
+  border-bottom: 2px solid blue;
+  font-weight: bold;
+}
+
+.tabContent {
+  padding-top: 1rem;
+}
