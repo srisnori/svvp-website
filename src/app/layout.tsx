@@ -28,7 +28,15 @@ export default function RootLayout({
 
           <a href="/pooja-services">Pooja Services</a>
           <a href="/events">Events</a>
-          <a href="/">Donations</a>
+
+          <div className="dropdown">
+            <a href="/donations">Donations</a>
+            <div className="dropdown-content">
+              <a href="/donations">Donations</a>
+              <a href="/saree-sponsorship">Saree Sponsorship</a>
+            </div>
+          </div>
+
           <a href="/latest-calender">Latest Calendar</a>
           <a href="/">Media Gallery</a>
           <a href="/">Contact Us</a>

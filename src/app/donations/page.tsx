@@ -7,7 +7,6 @@ export default function Donations() {
         const element = document.querySelector(`.${styles.donationMethod}`);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
-            // Highlight the specific donation method if provided
             if (method) {
                 const methods = document.querySelectorAll(`.${styles.donationMethod}`);
                 methods.forEach((el) => {

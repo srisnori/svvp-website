@@ -221,7 +221,7 @@ console.log('Proxy URL for flyer:', proxyUrl);
             <h2>Pooja Services</h2>
             <p>Our dedicated team of priests have specialized 
               knowledge in various branches of Hindu rituals.</p>
-              <Link href="/" passHref>
+              <Link href="/pooja-services">
                 <button>Learn More</button>
               </Link>
           </div>
@@ -230,7 +230,7 @@ console.log('Proxy URL for flyer:', proxyUrl);
             <h2>Become a Devotee Today!</h2>
             <p>Join our spiritual community to experience devotion and stay updated on rituals 
               and events.</p>
-              <Link href="/">
+              <Link href="/login">
                 <button>Devotee</button>
               </Link>
           </div>

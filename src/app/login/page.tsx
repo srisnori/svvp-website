@@ -3,7 +3,7 @@
 import styles from './login.module.css';
 import { useState } from 'react';
 import { auth } from '../../firebase';
-import { signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup} from 'firebase/auth';
+import { signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, setPersistence, browserLocalPersistence } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
 import { adminUsers } from '../admin/admin';
 
@@ -27,6 +27,8 @@ export default function Login() {
     setError(null);
 
     try {
+      await setPersistence(auth, browserLocalPersistence);
+
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const userEmail = userCredential.user.email;
       redirectUser(userEmail);
@@ -37,6 +39,8 @@ export default function Login() {
 
   const handleGoogleLogin = async () => {
     try {
+      await setPersistence(auth, browserLocalPersistence);
+
       const result = await signInWithPopup(auth, provider);
       const userEmail = result.user.email;
       redirectUser(userEmail);
